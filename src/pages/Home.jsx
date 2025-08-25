@@ -1,6 +1,6 @@
 import React from "react";
 import ContentCarousel from "../components/home/ContentCarousel";
-import Recommend from "../components/home/recommend";
+import Recommend from "../components/home/Recommend";
 import NewProduct from "../components/home/NewProduct";
 import Contact from "../components/contact";
 
