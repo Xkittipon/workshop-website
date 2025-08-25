@@ -89,7 +89,7 @@ const Login = () => {
                   <button
                     type="button"
                     onClick={() => setShowPassword(!showPassword)}
-                    className="absolute right-3 top-3 text-sm text-gray-600"
+                    className="absolute right-3 top-10 text-sm text-gray-600"
                   >
                     {showPassword ? <EyeClosed size={18} /> : <Eye size={18} />}
                   </button>
