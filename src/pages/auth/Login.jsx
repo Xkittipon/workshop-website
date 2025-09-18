@@ -59,6 +59,8 @@ const Login = () => {
 
         {/* ฝั่งขวา */}
         <div className="w-full md:w-1/2 flex flex-col justify-center bg-white py-12 px-8 md:py-16 md:px-12">
+          <div>Admin: admin_test@gmail.com</div>
+          <div>Password: 12345678</div>
           <h1 className="font-bold text-3xl font-mono text-center my-4">
             Login
           </h1>

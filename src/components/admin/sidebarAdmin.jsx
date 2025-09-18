@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import {
   LayoutDashboard,
@@ -73,7 +73,10 @@ const SidebarAdmin = () => {
       <footer className="flex justify-center items-center mt-auto">
         <button
           className="bg-[#e5e5e5] text-[#000000] text-lg px-4 py-2 rounded flex items-center"
-          onClick={logout}
+          onClick={() => {
+            logout();
+            window.location.reload();
+          }}
         >
           log out
           <LogOut className="ml-2" />
