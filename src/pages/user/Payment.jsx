@@ -6,7 +6,7 @@ import useEcomStore from "../../store/ecom-store";
 import CheckoutForm from "../../components/CheckoutForm";
 
 const stripePromise = loadStripe(
-  "pk_test_51RoITXA8DgIVfBpo4Ae0TTzrmwzsylpaLWe7ieru6mLBjYbMtfnKc5AliELO418QnwKDKhvSmmwzaF7yTAyAFnPZ00GUzg4cpe"
+  "pk_test_51RoIQA2EvGznbpUOLH1UdRz8Vjo5acd25Pv7uzvx9UPyEg9NFYZ3zZf9bhq1oodvJ1fwtz5VPOZ6gGNGvBIsuIOY00LsSe7bHM"
 );
 
 const Payment = () => {

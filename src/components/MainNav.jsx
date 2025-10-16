@@ -76,9 +76,12 @@ const MainNav = () => {
               </button>
               {isOpen && (
                 <div className="absolute top-16 text-black mt-2  bg-white shadow-md z-50">
-                  <Link className="block px-2 py-2 hover:bg-gray-200">
+                  <NavLink
+                    className="block px-2 py-2 hover:bg-gray-200"
+                    to={"/user/history"}
+                  >
                     History
-                  </Link>
+                  </NavLink>
                   <button
                     onClick={logout}
                     className="block px-2 py-2 hover:bg-gray-200"
