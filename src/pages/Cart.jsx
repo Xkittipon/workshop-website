@@ -3,7 +3,7 @@ import ListCart from "../components/card/ListCart";
 
 const Cart = () => {
   return (
-    <div>
+    <div className="w-full h-screen">
       <ListCart />
     </div>
   );
