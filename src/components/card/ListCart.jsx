@@ -28,7 +28,7 @@ const ListCart = () => {
   };
 
   return (
-    <div className="bg-gray-100 rounded-sm p-4 h-full">
+    <div className="bg-gray-100 rounded-sm p-4 h-screen">
       {/* Header */}
       <div className="flex gap-4 mb-4">
         <ListCheck size={36} />
